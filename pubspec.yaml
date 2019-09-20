@@ -1,8 +1,8 @@
 name: flutter_regex_validator
 description: Flutter common regular expression validator
 version: 0.0.1
-author:
-homepage:
+author: Sebastien Dugene <sebastien.dugene@gmail.com>
+homepage: https://github.com/sdugene/flutter_regular_expression
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
