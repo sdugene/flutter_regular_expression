@@ -22,7 +22,7 @@ void main() {
     expect(Validator.frenchPhone('0033010203'), false);
 
     expect(Validator.frenchPhone('0024310203011'), false);
-    expect(Validator.frenchPhone('00243 102030110'), true);
+    expect(Validator.frenchPhone('00243 102030110'), false);
 
     expect(Validator.frenchPhone('0102030405'), true);
     expect(Validator.frenchPhone('+33102030405'), true);
